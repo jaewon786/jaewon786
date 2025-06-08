@@ -7,8 +7,8 @@
 
 ## 🔗 웹사이트 & GitHub
 
-- 🌐 [포트폴리오 사이트 바로가기](https://jaewon786.github.io/jaewon786/)
-- 📁 [GitHub 저장소 바로가기](https://github.com/jaewon786/jaewon786)
+- 🌐 [포트폴리오 사이트 바로가기](https://jaewon786.github.io/)
+- 📁 [GitHub 저장소 바로가기](https://github.com/jaewon786/jaewon786.github.io)
 
 ---
 
