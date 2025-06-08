@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko"></html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="포트폴리오 - 프로젝트, 블로그, 이력 소개" />
+    <title>포트폴리오</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class'
+      }
+    </script>
+    <script>
+      if (
+        localStorage.theme === 'dark' ||
+        (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+      ) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    </script>
+  </head>
+  <body class="bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-gray-100 min-h-screen">
+    <header class="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur border-b border-gray-200 dark:border-gray-700">
+      <nav class="container mx-auto flex flex-row items-center justify-between gap-8 py-4 px-4">
+        <div class="flex flex-row items-center">
+          <a href="#carousel-content" class="text-xl font-bold">Home</a>
+          <ul class="flex gap-6 justify-start font-sans font-bold tracking-wide text-xl ml-8">
+            <li><a href="#home-intro" class="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:underline">About</a></li>
+            <li><a href="#skills" class="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:underline">Skills</a></li>
+            <li><a href="#portfolio" class="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:underline">Portfolio</a></li>
+            <li><a href="#blog" class="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:underline">Blog</a></li>
+            <li><a href="#job" class="text-gray-500 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white hover:underline">Job</a></li>
+          </ul>
+        </div>
+        <button id="theme-toggle" class="ml-4 p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700" aria-label="다크모드 전환">
+          <span id="theme-icon">🌙</span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="home-carousel" class="w-full py-0 px-0">
+        <!-- Home Carousel Section -->
+      </section>
+      <section id="home-intro" class="w-full py-0 px-20 md:px-64">
+        <!-- Home Intro Section -->
+      </section>
+      <section id="skills" class="pt-28 pb-20"></section>
+      <section id="portfolio" class="container mx-auto py-20 px-4">
+        <!-- Portfolio Section -->
+      </section>
+      <section id="blog" class="container mx-auto py-20 px-4">
+        <!-- Blog Section -->
+      </section>
+      <section id="job" class="container mx-auto py-16 px-4">
+        <!-- Job Section -->
+      </section>
+    </main>
+    <footer class="container mx-auto py-8 px-4 text-center text-sm text-gray-500 dark:text-gray-400">
+      &copy; 2025 jaewon786. All rights reserved.
+    </footer>
+    <script src="aboutData.js"></script>
+    <script>window.aboutData = aboutData;</script>
+    <script src="portfolioData.js"></script>
+    <script>window.portfolioData = portfolioData;</script>
+    <script src="blogData.js"></script>
+    <script>window.blogData = blogData;</script>
+    <script src="main.js"></script>
+  </body>
+</html> 

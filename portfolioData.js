@@ -1,0 +1,50 @@
+const portfolioData = [
+  {
+    id: 1,
+    title: '머신러닝 기반 영화 추천 시스템 (예정)',
+    description: 'Python과 scikit-learn을 활용해 사용자의 시청 이력을 바탕으로 영화를 추천하는 콘텐츠 기반 필터링 시스템입니다.',
+    tech: ['Python', 'scikit-learn', 'Pandas', 'Flask'],
+    github: 'https://github.com/yourname/ml-movie-recommender',
+    thumbnail: 'images/ml-movie.jpg',
+  },
+  {
+    id: 2,
+    title: '딥러닝 이미지 분류기 (진행중)',
+    description: 'TensorFlow와 Keras로 구현한 CNN 기반 이미지 분류기. 다양한 데이터셋에 대해 훈련 및 정확도 시각화 기능 포함.',
+    tech: ['TensorFlow', 'Keras', 'Python', 'Matplotlib'],
+    github: 'https://github.com/yourname/deep-image-classifier',
+    thumbnail: 'images/dl-image-classifier.jpg',
+  },
+  {
+    id: 3,
+    title: 'Django 기반 ToDoList 웹사이트',
+    description: 'Python과 Django로 구현된 CRUD 기능을 갖춘 할 일 관리 웹 애플리케이션. 사용자 인증 및 다크모드 지원.',
+    tech: ['Python', 'Django', 'SQLite', 'Bootstrap'],
+    github: 'https://github.com/yourname/django-todolist',
+    thumbnail: 'images/django-todolist.jpg',
+  },
+  {
+    id: 4,
+    title: 'GSAP 인터랙티브 포트폴리오',
+    description: 'GSAP 애니메이션 라이브러리를 활용해 시각적으로 생동감 있는 인터랙션을 구현한 포트폴리오 사이트입니다.',
+    tech: ['JavaScript', 'GSAP', 'HTML', 'CSS'],
+    github: 'https://github.com/yourname/gsap-portfolio',
+    thumbnail: 'images/gsap-portfolio.jpg',
+  },
+  {
+    id: 5,
+    title: 'FastAPI 기반 머신러닝 API 서버 (예정)',
+    description: '머신러닝 모델을 API로 배포하기 위해 FastAPI를 사용해 구축한 예측 서비스. JSON 형태로 입력/출력 처리.',
+    tech: ['Python', 'FastAPI', 'scikit-learn', 'Uvicorn'],
+    github: 'https://github.com/yourname/ml-api-fastapi',
+    thumbnail: 'images/fastapi-ml.jpg',
+  },
+  {
+    id: 6,
+    title: 'GitHub 저장소 기여도 시각화 툴',
+    description: 'GitHub API를 활용하여 저장소의 커밋 히스토리를 분석하고, 기여자별 활동량을 차트로 시각화한 웹 애플리케이션입니다.',
+    tech: ['JavaScript', 'GitHub API', 'Chart.js', 'HTML', 'CSS'],
+    github: 'https://github.com/yourname/github-contrib-analyzer',
+    thumbnail: 'images/github-contrib.jpg',
+  }
+];
